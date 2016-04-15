@@ -10,8 +10,8 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Dennis Pashkov" => "dennis.pashkov@icloud.com" }
 s.homepage = "https://github.com/bigsnickers/DPActivityIndicatorView"
 s.source = { :git => "https://github.com/bigsnickers/DPActivityIndicatorView.git", :tag => s.version }
-s.source_files = "Source/**/*.{swift}"
+s.source_files = "DPActivityIndicatorView/**/*.{swift}"
 s.requires_arc = true
-s.resources = "Source/**/*.{png,xib}"
+s.resources = "DPActivityIndicatorView/**/*.{png,xib}"
 
 end
