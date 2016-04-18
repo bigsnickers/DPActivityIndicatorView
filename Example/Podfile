@@ -5,6 +5,6 @@ use_frameworks!
 
 target 'DPActivityIndicatorViewExample' do
 	
-	pod ‘DPActivityIndicatorView’, :git => 'https://github.com/bigsnickers/DPActivityIndicatorView.git'	
+	pod 'DPActivityIndicatorView'
 
 end

@@ -85,9 +85,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-DPActivityIndicatorViewExample/DPActivityIndicatorView.framework"
-  install_framework "Pods-DPActivityIndicatorViewExample/DPAdditionsKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-DPActivityIndicatorViewExample/DPActivityIndicatorView.framework"
-  install_framework "Pods-DPActivityIndicatorViewExample/DPAdditionsKit.framework"
 fi

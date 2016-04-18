@@ -1,6 +1,0 @@
-framework module DPAdditionsKit {
-  umbrella header "DPAdditionsKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

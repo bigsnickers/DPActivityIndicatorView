@@ -1,22 +1,10 @@
 PODS:
-  - DPActivityIndicatorView (0.1.1):
-    - DPAdditionsKit (~> 0.1.1)
-  - DPAdditionsKit (0.1.1)
+  - DPActivityIndicatorView (0.1.0)
 
 DEPENDENCIES:
-  - DPActivityIndicatorView (from `https://github.com/bigsnickers/DPActivityIndicatorView.git`)
-
-EXTERNAL SOURCES:
-  DPActivityIndicatorView:
-    :git: https://github.com/bigsnickers/DPActivityIndicatorView.git
-
-CHECKOUT OPTIONS:
-  DPActivityIndicatorView:
-    :commit: 9a3a3695260919c7ae660e87eb5e853e34d6287e
-    :git: https://github.com/bigsnickers/DPActivityIndicatorView.git
+  - DPActivityIndicatorView
 
 SPEC CHECKSUMS:
-  DPActivityIndicatorView: e62b659f2b9075a954d6efa9c71a2c744b387632
-  DPAdditionsKit: ed32e4f8674d883343d1a0b6a3688f77c24ca8e9
+  DPActivityIndicatorView: 5fe7b9a8fe953a046f7287514ed37ef5409a662e
 
 COCOAPODS: 0.39.0

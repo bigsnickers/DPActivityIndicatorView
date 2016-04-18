@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView {
     
-    public func removeAllSubviews() {
+    internal func removeAllSubviews() {
         
         while subviews.count > 0 {
             
@@ -18,7 +18,7 @@ extension UIView {
         }
     }
     
-    public func stickToSuperview() {
+    internal func stickToSuperview() {
         
         guard superview != nil else { return }
         
@@ -31,7 +31,7 @@ extension UIView {
         
         superview?.addConstraints(horizontalConstraints)
         superview?.addConstraints(verticalConstraints)
-
+        
         superview?.setNeedsLayout()
         superview?.layoutIfNeeded()
     }
