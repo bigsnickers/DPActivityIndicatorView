@@ -10,7 +10,7 @@ public enum DPActivityIndicatorStyle: Int {
     
     case Native
     
-    func displayValue() -> String {
+    public func displayValue() -> String {
         
         switch ( self ) {
             
@@ -20,7 +20,7 @@ public enum DPActivityIndicatorStyle: Int {
         }
     }
     
-    static func allStyles() -> [DPActivityIndicatorStyle] {
+    public static func allStyles() -> [DPActivityIndicatorStyle] {
         
         return [.Native]
     }
