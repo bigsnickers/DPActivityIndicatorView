@@ -6,7 +6,7 @@
 //  Copyright © 2016 Dennis Pashkov. All rights reserved.
 //
 
-import UIKit
+import DPAdditionsKit
 
 internal class DPActivityIndicatorContentView: UIView { }
 

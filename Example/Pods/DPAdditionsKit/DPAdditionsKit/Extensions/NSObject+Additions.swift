@@ -15,7 +15,7 @@ extension NSObject {
      
      - returns: Receiver as Self
      */
-    func asSelf<T>() -> T! {
+    public func asSelf<T>() -> T! {
         
         return self as! T
     }

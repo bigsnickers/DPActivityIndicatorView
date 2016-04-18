@@ -5,7 +5,7 @@
   },
   "summary": "Custom set of activity indicators for iOS.",
   "requires_arc": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,8 +16,13 @@
   "homepage": "https://github.com/bigsnickers/DPActivityIndicatorView",
   "source": {
     "git": "https://github.com/bigsnickers/DPActivityIndicatorView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "source_files": "DPActivityIndicatorView/**/*.{swift}",
-  "resources": "DPActivityIndicatorView/**/*.{png,xib}"
+  "resources": "DPActivityIndicatorView/**/*.{png,xib}",
+  "dependencies": {
+    "DPAdditionsKit": [
+      "~> 0.1.1"
+    ]
+  }
 }
