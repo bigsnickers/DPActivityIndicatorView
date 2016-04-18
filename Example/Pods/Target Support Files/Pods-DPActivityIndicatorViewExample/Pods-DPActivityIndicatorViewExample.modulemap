@@ -1,0 +1,6 @@
+framework module Pods_DPActivityIndicatorViewExample {
+  umbrella header "Pods-DPActivityIndicatorViewExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

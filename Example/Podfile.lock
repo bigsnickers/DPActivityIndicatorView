@@ -1,0 +1,19 @@
+PODS:
+  - DPActivityIndicatorView (0.1.0)
+
+DEPENDENCIES:
+  - DPActivityIndicatorView (from `https://github.com/bigsnickers/DPActivityIndicatorView.git`)
+
+EXTERNAL SOURCES:
+  DPActivityIndicatorView:
+    :git: https://github.com/bigsnickers/DPActivityIndicatorView.git
+
+CHECKOUT OPTIONS:
+  DPActivityIndicatorView:
+    :commit: 9f541079a37ebc82d25978161fa9690d6ed11fa4
+    :git: https://github.com/bigsnickers/DPActivityIndicatorView.git
+
+SPEC CHECKSUMS:
+  DPActivityIndicatorView: f8372f5ed380c368704cacad3a8fbfa72b8d0d0a
+
+COCOAPODS: 0.39.0

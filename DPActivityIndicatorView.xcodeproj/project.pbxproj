@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		79434D681CC115BE005A988B /* DPActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79434D671CC115BE005A988B /* DPActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79434D711CC12565005A988B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79434D701CC12565005A988B /* Info.plist */; };
 		79434D751CC1260B005A988B /* DPActivityIndicatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434D731CC1260B005A988B /* DPActivityIndicatorStyle.swift */; };
 		79434D761CC1260B005A988B /* DPActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434D741CC1260B005A988B /* DPActivityIndicatorView.swift */; };
 		79434D791CC12667005A988B /* DPActivityIndicatorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434D781CC12667005A988B /* DPActivityIndicatorContentView.swift */; };
 		79434D7D1CC126B2005A988B /* DPActivityIndicatorNativeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434D7B1CC126B2005A988B /* DPActivityIndicatorNativeContentView.swift */; };
 		79434D7E1CC126B2005A988B /* DPActivityIndicatorNativeContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79434D7C1CC126B2005A988B /* DPActivityIndicatorNativeContentView.xib */; };
 		79434D801CC126F2005A988B /* DPActivityIndicatorContentViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434D7F1CC126F2005A988B /* DPActivityIndicatorContentViewProtocol.swift */; };
-		79434D841CC12770005A988B /* NSObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434D831CC12770005A988B /* NSObject+Additions.swift */; };
 		79434D861CC12777005A988B /* DPNibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434D851CC12777005A988B /* DPNibLoading.swift */; };
-		79434D881CC127A5005A988B /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79434D871CC127A5005A988B /* UIView+Additions.swift */; };
+		D47BE2AB1B0406A77FE903C2 /* Pods_DPActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F491796CB4AE1277A8F2C15 /* Pods_DPActivityIndicatorView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F491796CB4AE1277A8F2C15 /* Pods_DPActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79434D641CC115BE005A988B /* DPActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DPActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79434D671CC115BE005A988B /* DPActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPActivityIndicatorView.h; sourceTree = "<group>"; };
 		79434D701CC12565005A988B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,9 +29,9 @@
 		79434D7B1CC126B2005A988B /* DPActivityIndicatorNativeContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPActivityIndicatorNativeContentView.swift; sourceTree = "<group>"; };
 		79434D7C1CC126B2005A988B /* DPActivityIndicatorNativeContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPActivityIndicatorNativeContentView.xib; sourceTree = "<group>"; };
 		79434D7F1CC126F2005A988B /* DPActivityIndicatorContentViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPActivityIndicatorContentViewProtocol.swift; sourceTree = "<group>"; };
-		79434D831CC12770005A988B /* NSObject+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Additions.swift"; sourceTree = "<group>"; };
 		79434D851CC12777005A988B /* DPNibLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPNibLoading.swift; sourceTree = "<group>"; };
-		79434D871CC127A5005A988B /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		D195614A1CE2C853AFBCDDA2 /* Pods-DPActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPActivityIndicatorView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DPActivityIndicatorView/Pods-DPActivityIndicatorView.release.xcconfig"; sourceTree = "<group>"; };
+		F92F20C4EC9585960D7DF5FA /* Pods-DPActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPActivityIndicatorView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DPActivityIndicatorView/Pods-DPActivityIndicatorView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47BE2AB1B0406A77FE903C2 /* Pods_DPActivityIndicatorView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16190F98A60314F1F0ED66F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F92F20C4EC9585960D7DF5FA /* Pods-DPActivityIndicatorView.debug.xcconfig */,
+				D195614A1CE2C853AFBCDDA2 /* Pods-DPActivityIndicatorView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71DAB75B5A4E603282A7B9E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F491796CB4AE1277A8F2C15 /* Pods_DPActivityIndicatorView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79434D5A1CC115BE005A988B = {
 			isa = PBXGroup;
 			children = (
 				79434D661CC115BE005A988B /* DPActivityIndicatorView */,
 				79434D651CC115BE005A988B /* Products */,
+				16190F98A60314F1F0ED66F1 /* Pods */,
+				71DAB75B5A4E603282A7B9E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,7 +87,6 @@
 				79434D671CC115BE005A988B /* DPActivityIndicatorView.h */,
 				79434D721CC125F5005A988B /* Source */,
 				79434D811CC12713005A988B /* Protocols */,
-				79434D821CC1272A005A988B /* Extensions */,
 				79434D6F1CC1254F005A988B /* Supporting Files */,
 			);
 			path = DPActivityIndicatorView;
@@ -119,15 +137,6 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		79434D821CC1272A005A988B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				79434D871CC127A5005A988B /* UIView+Additions.swift */,
-				79434D831CC12770005A988B /* NSObject+Additions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -146,10 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79434D6C1CC115BE005A988B /* Build configuration list for PBXNativeTarget "DPActivityIndicatorView" */;
 			buildPhases = (
+				76AB9546D9C247F75275D843 /* Check Pods Manifest.lock */,
 				79434D5F1CC115BE005A988B /* Sources */,
 				79434D601CC115BE005A988B /* Frameworks */,
 				79434D611CC115BE005A988B /* Headers */,
 				79434D621CC115BE005A988B /* Resources */,
+				6957CDD8595C3D29FFFC0972 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,11 +208,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				79434D7E1CC126B2005A988B /* DPActivityIndicatorNativeContentView.xib in Resources */,
-				79434D711CC12565005A988B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6957CDD8595C3D29FFFC0972 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DPActivityIndicatorView/Pods-DPActivityIndicatorView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76AB9546D9C247F75275D843 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79434D5F1CC115BE005A988B /* Sources */ = {
@@ -212,9 +255,7 @@
 				79434D751CC1260B005A988B /* DPActivityIndicatorStyle.swift in Sources */,
 				79434D801CC126F2005A988B /* DPActivityIndicatorContentViewProtocol.swift in Sources */,
 				79434D791CC12667005A988B /* DPActivityIndicatorContentView.swift in Sources */,
-				79434D881CC127A5005A988B /* UIView+Additions.swift in Sources */,
 				79434D761CC1260B005A988B /* DPActivityIndicatorView.swift in Sources */,
-				79434D841CC12770005A988B /* NSObject+Additions.swift in Sources */,
 				79434D861CC12777005A988B /* DPNibLoading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +356,7 @@
 		};
 		79434D6D1CC115BE005A988B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92F20C4EC9585960D7DF5FA /* Pods-DPActivityIndicatorView.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -333,6 +375,7 @@
 		};
 		79434D6E1CC115BE005A988B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D195614A1CE2C853AFBCDDA2 /* Pods-DPActivityIndicatorView.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;

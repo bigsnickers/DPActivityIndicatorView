@@ -1,0 +1,23 @@
+{
+  "name": "DPActivityIndicatorView",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "summary": "Custom set of activity indicators for iOS.",
+  "requires_arc": true,
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dennis Pashkov": "dennis.pashkov@icloud.com"
+  },
+  "homepage": "https://github.com/bigsnickers/DPActivityIndicatorView",
+  "source": {
+    "git": "https://github.com/bigsnickers/DPActivityIndicatorView.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "DPActivityIndicatorView/**/*.{swift}",
+  "resources": "DPActivityIndicatorView/**/*.{png,xib}"
+}

@@ -1,1 +1,10 @@
+PODS:
+  - DPAdditionsKit (0.1.1)
+
+DEPENDENCIES:
+  - DPAdditionsKit
+
+SPEC CHECKSUMS:
+  DPAdditionsKit: ed32e4f8674d883343d1a0b6a3688f77c24ca8e9
+
 COCOAPODS: 0.39.0
