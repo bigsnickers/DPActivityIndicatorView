@@ -8,11 +8,4 @@
 
 import UIKit
 
-class DPExampleViewController: UIViewController {
-
-    override func viewDidLoad() {
-        
-        super.viewDidLoad()
-        
-    }
-}
+class DPExampleViewController: UIViewController { }
